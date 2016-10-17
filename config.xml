@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.mygametrade.app"
+        versionCode = "1" 
+        version     = "1.0.0" >
+
+    <name>mygametrade</name>
+
+    <description>
+		Trade Games
+    </description>
+
+    <author href="https://www.mygametrade.com" email="info@mygametrade.com">
+        Jens Bröcher
+    </author>
+	
+	<icon src="icon.png" />
+		
+	<platform name="android" />
+
+	<!-- Core plugins -->
+    <gap:plugin name="cordova-plugin-device" source="npm" />
+        
+    <gap:plugin name="onesignal-cordova-plugin-pgb-compat" source="npm" />
+    <gap:plugin name="cordova-plugin-googleplayservices" source="npm" />
+    <gap:plugin name="cordova-plugin-android-support-v4" source="npm" />
+
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <access origin="*" />
+
+</widget>
